@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>猜数字</title>
+	<style type="text/css">
+		body {
+			padding: 100px 0;
+			background-color: #2B3B49;
+			color: #FFFFFF;
+			text-align: center;
+			font-size: 2.5em;
+		}
+		input {
+			padding: 5px 20px;
+			height: 50px;
+			background-color: #3B4B59;
+			border: 1px solid #C0C0C0;
+			box-sizing: border-box;
+			color: #FFFFFF;
+			font-size: 20px;
+		}
+		button {
+			padding: 5px 20px;
+			height: 50px;
+			font-size: 16px;
+		}
+	</style>
+</head>
+<body>
+	<h1>猜数字游戏</h1>
+	<p>Hi,我已经准备了一个 0 - 100 的数字，你需要在仅有的 10 机会之内猜对它。</p>
+	<form action="" method="post">
+		<input type="number" min = "0" max = "100" name="num" placeholder="随便猜">
+		<button type="submit">试一试</button>
+	</form>
+</body>
+</html>
