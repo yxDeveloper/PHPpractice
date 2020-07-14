@@ -1,0 +1,6 @@
+/* @import url('./layout.css'); */
+@import url('./layout.css');
+
+div {
+	background-color: hotpink;
+}
